@@ -42,4 +42,5 @@ class Graph:
         plt.plot(x, y)
         plt.plot(x, y, 'ro')
         plt.show()
-        plt.savefig("result/result_" + self.file[:-4])
+        file_name = self.file[self.file.find("/")+1:-4]
+        fig.savefig("result/result_" + file_name)
