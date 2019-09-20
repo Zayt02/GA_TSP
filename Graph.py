@@ -42,4 +42,4 @@ class Graph:
         plt.plot(x, y)
         plt.plot(x, y, 'ro')
         plt.show()
-        plt.savefig("result_" + self.file[:-4])
+        plt.savefig("result/result_" + self.file[:-4])

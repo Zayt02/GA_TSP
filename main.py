@@ -12,4 +12,4 @@ def main(file: str):
 
 
 if __name__ == '__main__':
-    main("wi29.txt")
+    main("data/wi29.txt")
